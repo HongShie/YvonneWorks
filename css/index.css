@@ -107,6 +107,35 @@
   }
 
   
-#first_row{
+.one_row{
   height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.oneperthree{
+  width: 34%;
+}
+
+.twoperthree{
+  width: 64%;
+}
+
+.halfhalf{
+  width: 49%;
+}
+
+@media screen and (max-width: 1200px) {
+  .oneperthree{
+    width: 100%;
+    height: auto;
+  }
+
+  .twoperthree{
+    width: 100%;
+  }
+
+  .one_row{
+    height: 120vh;
+  }
 }
