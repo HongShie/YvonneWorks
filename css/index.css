@@ -105,4 +105,8 @@
     font-weight: 900;
     font-style: italic;
   }
+
   
+#first_row{
+  height: 60vh;
+}
