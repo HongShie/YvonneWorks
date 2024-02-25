@@ -1,3 +1,5 @@
+/* CUSTOM FONT */
+
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
@@ -106,6 +108,16 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "ProductSans-Regular";
+  src: url(/font/ProductSans-Regular.ttf);
+}
+
+/* CUSTOM FONT */
+
+
+/* WEBSITE FORMAT */
+
 .navbar{
   position: sticky;
 }
@@ -171,4 +183,16 @@
     flex-direction: column;
   }
 
+}
+
+/* WEBSITE FORMAT */
+
+
+/* FIRST PAGE */
+
+#profilepic{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
 }
