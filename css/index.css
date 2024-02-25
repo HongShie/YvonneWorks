@@ -110,7 +110,7 @@
 
 @font-face {
   font-family: "ProductSans-Regular";
-  src: url(/font/ProductSans-Regular.ttf);
+  src: url(//font/ProductSans-Regular.ttf)
 }
 
 /* CUSTOM FONT */
