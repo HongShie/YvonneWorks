@@ -317,7 +317,7 @@
     background-size: 300% 300%;
     background-position: 0 50%; 
     border-radius: 360px;
-    animation: moveGradient 8s alternate infinite;
+    animation: moveGradient 6s alternate infinite;
   }
 }
 
