@@ -10,6 +10,131 @@
 /* CUSTOM FONT */
 
 
+/* CUSTOM COLOR */
+
+.color1{
+  background-color: #EADBDD;
+}
+
+.color2{
+  background-color: #FCD5CE;
+}
+
+.color3{
+  background-color: #FFCAD4;
+}
+
+.color4{
+  background-color: #FADDE1;
+}
+
+.color5{
+  background-color: #FFF1F5;
+}
+
+.color6{
+  background-color: #F6EEE9;
+}
+
+.color7{
+  background-color: #FFCAE9;
+}
+
+.color8{
+  background-color: #FFF5E4;
+}
+
+.color9{
+  background-color: #FA9BCF;
+}
+
+.color10{
+  background-color: #F4DBE9;
+}
+
+.color11{
+  background-color: #B0B5ED;
+}
+
+.color12{
+  background-color: #FFF0F1;
+}
+
+.bordercolor1{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #EADBDD;
+}
+
+.bordercolor2{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FCD5CE;
+}
+
+.bordercolor3{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFCAD4;
+}
+
+.bordercolor4{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FADDE1;
+}
+
+.bordercolor5{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFF1F5;
+}
+
+.bordercolor6{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #F6EEE9;
+}
+
+.bordercolor7{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFCAE9;
+}
+
+.bordercolor8{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFF5E4;
+}
+
+.bordercolor9{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FA9BCF;
+}
+
+.bordercolor10{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #F4DBE9;
+}
+
+.bordercolor11{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #B0B5ED;
+}
+
+.bordercolor12{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFF0F1;
+}
+
+/* CUSTOM COLOR */
+
+
 /* WEBSITE FORMAT */
 
 .navbar{
@@ -68,7 +193,7 @@
   }
 
   .one_row{
-    height: 150vh;
+    height: 160vh;
     flex-direction: column;
   }
 
@@ -87,12 +212,10 @@
 
 
 /* FIRST PAGE */
-
+/* FIRST ROW */
 #profilepic{
   width: 100%;
   height: 50%;
-  display: flex;
-  justify-content: center;
 }
 
 #name{
@@ -103,16 +226,35 @@
 #occupation{
   width: 100%;
   height: 35%;
-  display: flex;
 }
 
 .pill{
   height: 30%;
 }
+/* FIRST ROW */
 
-@media screen and (max-width: 1200px) {
-
+/* SECOND ROW */
+#artdescription{
+  width: 100%;
+  height: 5%;
 }
+
+#artname{
+  width: 100%;
+  height: 20%;
+}
+
+#art-btn{
+  height: 50%;
+  aspect-ratio: 1/1;
+  transform: rotate(45deg);
+}
+
+#artthumbnail{
+  width: 100%;
+  height: 75%;
+}
+/* SECOND ROW */
 
 /* FIRST PAGE */
 
