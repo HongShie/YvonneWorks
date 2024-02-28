@@ -1,17 +1,14 @@
 /* CUSTOM FONT */
-
 .montserrat{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
 }
-
 /* CUSTOM FONT */
 
 
 /* CUSTOM COLOR */
-
 .color1{
   background-color: #EADBDD;
 }
@@ -132,11 +129,57 @@
   border-color: #FFF0F1;
 }
 
+.textcolor1{
+  color: #EADBDD;
+}
+
+.textcolor2{
+  color: #FCD5CE;
+}
+
+.textcolor3{
+  color: #FFCAD4;
+}
+
+.textcolor4{
+  color: #FADDE1;
+}
+
+.textcolor5{
+  color: #FFF1F5;
+}
+
+.textcolor6{
+  color: #F6EEE9;
+}
+
+.textcolor7{
+  color: #FFCAE9;
+}
+
+.textcolor8{
+  color: #FFF5E4;
+}
+
+.textcolor9{
+  color: #FA9BCF;
+}
+
+.textcolor10{
+  color: #F4DBE9;
+}
+
+.textcolor11{
+  color: #B0B5ED;
+}
+
+.textcolor12{
+  color: #FFF0F1;
+}
 /* CUSTOM COLOR */
 
 
 /* WEBSITE FORMAT */
-
 .navbar{
   position: sticky;
 }
@@ -205,13 +248,10 @@
   .pill{
     margin-bottom: 10px;
   }
-
 }
-
 /* WEBSITE FORMAT */
 
 
-/* FIRST PAGE */
 /* FIRST ROW */
 #profilepic{
   width: 100%;
@@ -232,6 +272,7 @@
   height: 30%;
 }
 /* FIRST ROW */
+
 
 /* SECOND ROW */
 #artdescription{
@@ -275,12 +316,30 @@
   width: 100%;
   height: 75%;
 }
+
+@media screen and (max-width: 1200px) {
+  #artname{
+    height: 15%;
+  }
+
+  #artthumbnail{
+    height: 80%;
+  }
+
+  #craftname{
+    height: 15%;
+  }
+
+  #craftthumbnail{
+    height: 80%;
+  }
+}
 /* SECOND ROW */
+
 
 /* THIRD ROW */
 
 @media screen and (max-width: 1200px) {
-  
   #ad{
     height: 30%;
   }
@@ -288,18 +347,12 @@
   #map{
     height: 70%;
   }
-
 }
 
 /* THIRD ROW */
 
-/* FIRST PAGE */
-
-
-
 
 /* ANIMATION */
-
 .gradient-border {
   --border-width: 3px;
 
@@ -342,5 +395,4 @@
     background-position: 100% 50%;
   }
 }
-
 /* ANIMATION */
