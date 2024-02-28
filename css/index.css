@@ -277,6 +277,22 @@
 }
 /* SECOND ROW */
 
+/* THIRD ROW */
+
+@media screen and (max-width: 1200px) {
+  
+  #ad{
+    height: 30%;
+  }
+
+  #map{
+    height: 70%;
+  }
+
+}
+
+/* THIRD ROW */
+
 /* FIRST PAGE */
 
 
