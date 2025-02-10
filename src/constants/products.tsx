@@ -8,6 +8,7 @@ export const products = [
     description:
       "Creative expression on canvas or other surfaces, using mediums like oil, acrylic, or watercolor to convey emotion, story, or aesthetics.",
     thumbnail: artThumbnail,
+    images: [],
     stack: ["Scene", "Environment", "Painting"],
     slug: "art",
   },
@@ -17,6 +18,7 @@ export const products = [
     description:
       "Small-scale sculpture, detailed three-dimensional artwork crafted from materials like clay, metal, or resin, often used in art, collectibles, and model-making.",
     thumbnail: craftThumbnail,
+    images: [],
     stack: ["Models", "Keychains"],
     slug: "miniature",
   },
