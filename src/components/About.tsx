@@ -20,7 +20,7 @@ export default function About() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-10 my-10">
         {images.map((image, index) => (
           <motion.div
-            key={image}
+            key={index}
             initial={{
               opacity: 0,
               y: -50,
